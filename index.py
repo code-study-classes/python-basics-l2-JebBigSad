@@ -13,7 +13,7 @@ def get_domains(emails):
 # 3===============
 
 def filter_target_audience(users):
-    return list(filter(lambda user: user['age'] >= 18 and user['is_premium'],uers))
+    return list(filter(lambda user: user['age'] >= 18 and user['is_premium'],users))
 
 # 4========================
 
